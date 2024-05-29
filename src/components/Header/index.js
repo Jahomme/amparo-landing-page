@@ -55,7 +55,10 @@ export default function Header() {
       </Nav>
       <a>
         <FixedButton>
-          <FaWhatsapp size={50} />
+          <a href="https://www.google.com.br/?hl=pt-BR">
+            {" "}
+            <FaWhatsapp size={50} />
+          </a>
         </FixedButton>
       </a>
     </>

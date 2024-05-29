@@ -5,6 +5,7 @@ import breakpoints from "../../styles/breakpoints";
 export const Container = styled.div`
   background: ${primaryColor};
   width: 100%;
+  height: auto;
   margin: 25px 0 30px;
   display: flex;
   align-items: center;
@@ -29,7 +30,21 @@ export const Section = styled.div`
   justify-content: center;
   width: 60%;
 
+  ol li {
+    text-align: start;
+    margin: 20px 0 20px 20px;
+  }
+
+  ul li {
+    text-align: start;
+    list-style: inside;
+  }
+
   h1 {
     margin: 0px 0px 25px;
+  }
+
+  h3 {
+    margin: 20px 0 30px;
   }
 `;

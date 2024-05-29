@@ -5,6 +5,9 @@ import Need from "./components/Need";
 import GlobalStyles from "./styles/GlobalStyles";
 import Team from "./components/Team";
 import Faq from "./components/Faq";
+import Expect from "./components/Expect";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,6 +18,9 @@ function App() {
       <Need />
       <Team />
       <Faq />
+      <Expect />
+      <Contact />
+      <Footer />
       <GlobalStyles />
     </>
   );

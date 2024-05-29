@@ -7,7 +7,9 @@ export default function Home() {
     <Container id="Home">
       <Title>
         <h1>Terapia não precisa durar anos para mudar sua vida</h1>
-        <button>Agendar Sessão</button>
+        <a>
+          <button>Agendar Sessão</button>
+        </a>
       </Title>
       <img alt="Foto" src={homeImage}></img>
     </Container>

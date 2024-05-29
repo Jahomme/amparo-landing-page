@@ -12,11 +12,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 const workers = [
   {
     id: 0,
-    name: "Alicia",
+    name: "Alicia Azevedo",
     image: image1,
     crp: "00/000.000",
     description:
-      "Lorem ipsum dolor sit amet. Et enim mollitia qui totam nobis cum reprehenderit enim est porro iure nam enim nobis eos soluta assumenda ea eligendi esse. Sed quis nobis aut dolorem consectetur sed quia nobis et dolorem vitae et possimus enim qui exercitationem beatae. Aut commodi quia quo expedita laboriosam est voluptatem galisum. Ab perferendis quam qui alias praesentium et rerum molestiae sed alias voluptatibus ex rerum rerum et quae magni.",
+      "Meu nome é Alícia Azevedo, sou psicóloga formada na UNP, é especializada em psicoterapia infantojuvenil. Seu objetivo é promover o desenvolvimento saudável, autoconhecimento e bem-estar dos pacientes. Reconhece a importância da saúde mental nessa faixa etária, focando não só no tratamento, mas também na prevenção de problemas emocionais. Destaca a fase crucial de desenvolvimento de crianças e adolescentes, onde uma boa saúde mental possibilita relacionamentos saudáveis e habilidades sociais, garantindo um desenvolvimento adequado.",
     approach: "Psicanálise",
   },
   {

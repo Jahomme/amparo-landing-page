@@ -47,11 +47,18 @@ export const Title = styled.div`
   width: 90%;
   margin: 80px 30px 10px;
 
+  button {
+    padding: 20px 40px;
+    font-size: 1.2rem;
+  }
+
   @media ${breakpoints.size4} {
     text-align: center;
 
     button {
       width: 90%;
+      padding: 10px 20px;
+      font-size: 1.1rem;
     }
   }
 
