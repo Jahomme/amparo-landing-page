@@ -32,7 +32,7 @@ export default function Header() {
         </div>
         <div className="button">
           <button onClick={toggleNavbar}>
-            {isOpen ? <FaTimes size={17} /> : <FaBars size={17} />}
+            {isOpen ? <FaTimes size={20} /> : <FaBars size={20} />}
           </button>
         </div>
         {isOpen && (

@@ -1,9 +1,13 @@
 import styled from "styled-components";
-import { primaryColor, primaryDarkColor } from "../../config/colors";
+import {
+  primaryColor,
+  primaryDarkColor,
+  tertiaryColor,
+} from "../../config/colors";
 
 export const Nav = styled.nav`
-  background: ${primaryDarkColor};
-  padding: 10px;
+  background: ${tertiaryColor};
+  padding: 0 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -14,25 +18,25 @@ export const Nav = styled.nav`
   width: 100%;
   z-index: 999;
 
+  button {
+    background-color: transparent;
+  }
+
   img {
-    width: 15%;
-    height: 15%;
+    width: 20%;
+    height: 20%;
   }
 
   a {
     color: #fff;
     margin: 0 20px;
     color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
 
     &:hover {
       filter: brightness(85%);
     }
-  }
-
-  a .logo {
-    width: 10%;
-    height: 10%;
-    margin: 0;
   }
 
   @media (max-width: 1200px) {
@@ -49,6 +53,20 @@ export const Nav = styled.nav`
       margin: 0 10px;
       flex: 1 1 45%;
       margin: 5px 0;
+    }
+  }
+
+  @media (max-width: 500px) {
+    img {
+      width: 25%;
+      height: 25%;
+    }
+  }
+
+  @media (max-width: 450px) {
+    img {
+      width: 33%;
+      height: 33%;
     }
   }
 

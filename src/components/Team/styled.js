@@ -47,6 +47,14 @@ export const Info = styled.div`
   flex-direction: column;
   justify-content: space-between;
 
+  .crp {
+    color: ${fontColor};
+  }
+
+  .name {
+    font-size: 1.1rem;
+  }
+
   span {
     margin: 0 0 15px 10px;
     font-size: 1rem;
@@ -71,9 +79,5 @@ export const Info = styled.div`
     @media ${breakpoints.size1} {
       font-size: 0.7rem;
     }
-  }
-
-  .crp {
-    color: ${fontColor};
   }
 `;

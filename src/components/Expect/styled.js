@@ -9,6 +9,7 @@ import breakpoints from "../../styles/breakpoints";
 export const Container = styled.div`
   background: ${secondaryColor};
   width: 100%;
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -48,7 +49,7 @@ export const BoxSection = styled.div`
   grid: repeat(1, 250px) / auto-flow;
 
   @media ${breakpoints.size4} {
-    grid: repeat(6, 180px) / auto-flow;
+    grid: repeat(4, 180px) / auto-flow;
   }
 `;
 

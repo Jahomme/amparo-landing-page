@@ -33,7 +33,7 @@ export const Container = styled.div`
 export const Section = styled.div`
   text-align: center;
   justify-content: center;
-  width: 70%;
+  width: 75%;
   margin: 10px;
 
   h1 {
@@ -91,7 +91,7 @@ export const Box = styled.div`
 
   @media (max-width: 480px) {
     h2 {
-      font-size: 1.3rem;
+      font-size: 1.2rem;
     }
   }
 

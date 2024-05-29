@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Title } from "./styled";
-import homeImage from "../../assets/img1.png";
+import homeImage from "../../assets/img1.jpeg";
 
 export default function Home() {
   return (

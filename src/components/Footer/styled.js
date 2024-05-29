@@ -9,24 +9,21 @@ import breakpoints from "../../styles/breakpoints";
 export const Container = styled.div`
   background: ${secondaryColor};
   width: 100%;
-  height: 50%;
+  height: auto;
   align-items: center;
   justify-content: center;
 
-  img {
-    width: 50%;
-    height: 500px;
-  }
-
   a {
     color: #fff;
-    margin: 0 10px;
     color: ${primaryColor};
+    &:hover {
+      filter: brightness(85%);
+    }
   }
 
   p {
-    color: ${primaryDarkColor};
-    font-size: 1.3rem;
+    color: ${primaryColor};
+    text-align: center;
   }
 `;
 
@@ -35,25 +32,46 @@ export const Section = styled.div`
   justify-content: center;
   width: 80%;
   margin: 10px;
+  display: flex;
+  justify-content: space-between;
 
-  h1 {
-    margin: 50px 0px;
-    color: #fff;
+  img {
+    width: 30%;
+    height: 30%;
+    object-fit: cover;
+    margin: 50px 0;
   }
-`;
 
-export const BoxSection = styled.div`
-  text-align: center;
-  display: grid;
-  grid: repeat(1, 250px) / auto-flow;
+  h2 {
+    color: ${primaryColor};
+    text-align: start;
+    margin: 20px 0;
+  }
 
-  @media ${breakpoints.size4} {
-    grid: repeat(6, 180px) / auto-flow;
+  ul li {
+    text-align: start;
+    color: ${primaryColor};
+    margin: 10px 0;
+  }
+
+  @media (max-width: 1050px) {
+    display: block;
+
+    img {
+      margin: 0;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .image {
+      width: 100%;
+      height: 100%;
+    }
   }
 `;
 
 export const Line = styled.div`
   background-color: ${primaryDarkColor};
   width: 100%;
-  height: 3%;
+  height: 5%;
 `;

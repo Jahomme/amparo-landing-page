@@ -1,9 +1,9 @@
 import image1 from "../../assets/worker1.png";
-import image2 from "../../assets/worker2.png";
-import image3 from "../../assets/worker3.png";
-import image4 from "../../assets/worker4.png";
-import image5 from "../../assets/worker5.png";
-import image6 from "../../assets/worker6.png";
+import image2 from "../../assets/worker2.jpeg";
+import image3 from "../../assets/worker3.jpeg";
+import image4 from "../../assets/worker4.jpeg";
+import image5 from "../../assets/worker5.jpeg";
+import image6 from "../../assets/worker6.jpeg";
 
 import React, { useState, useEffect } from "react";
 import { Container, Info, Item } from "./styled";
@@ -107,7 +107,7 @@ export default function Team() {
                   {" "}
                   <img src={image} alt="Slider"></img>
                   <Info>
-                    <span>
+                    <span className="name">
                       <b>Nome: </b>
                       {name}
                     </span>
