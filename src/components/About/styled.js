@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { primaryColor, primaryDarkColor } from "../../config/colors";
+import { fontColor, primaryColor, primaryDarkColor } from "../../config/colors";
 import breakpoints from "../../styles/breakpoints";
 
 export const Container = styled.div`
@@ -13,7 +13,6 @@ export const Container = styled.div`
 
   p {
     color: ${primaryDarkColor};
-    font-size: 1.3rem;
 
     @media (max-width: 720px) {
       font-size: 1rem;
@@ -33,11 +32,14 @@ export const Section = styled.div`
   ol li {
     text-align: start;
     margin: 20px 0 20px 20px;
+    color: ${fontColor};
   }
 
   ul li {
     text-align: start;
-    list-style: inside;
+    margin: 20px 0 20px 25px;
+    list-style: square;
+    color: ${fontColor};
   }
 
   h1 {
@@ -46,5 +48,9 @@ export const Section = styled.div`
 
   h3 {
     margin: 20px 0 30px;
+  }
+
+  span {
+    color: ${fontColor};
   }
 `;

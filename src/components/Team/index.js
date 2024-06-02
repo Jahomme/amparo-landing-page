@@ -16,7 +16,7 @@ const workers = [
     image: image1,
     crp: "00/000.000",
     description:
-      "Meu nome é Alícia Azevedo, sou psicóloga formada na UNP, é especializada em psicoterapia infantojuvenil. Seu objetivo é promover o desenvolvimento saudável, autoconhecimento e bem-estar dos pacientes. Reconhece a importância da saúde mental nessa faixa etária, focando não só no tratamento, mas também na prevenção de problemas emocionais. Destaca a fase crucial de desenvolvimento de crianças e adolescentes, onde uma boa saúde mental possibilita relacionamentos saudáveis e habilidades sociais, garantindo um desenvolvimento adequado.",
+      "Meu nome é Alícia Azevedo, psicóloga formada na UNP e especializada em psicoterapia infantojuvenil. Promovo o desenvolvimento saudável, autoconhecimento e bem-estar dos pacientes, focando na prevenção e tratamento de problemas emocionais, garantindo relacionamentos saudáveis e habilidades sociais.",
     approach: "Psicanálise",
   },
   {

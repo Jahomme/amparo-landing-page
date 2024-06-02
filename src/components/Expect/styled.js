@@ -3,6 +3,7 @@ import {
   primaryColor,
   primaryDarkColor,
   secondaryColor,
+  tertiaryColor,
 } from "../../config/colors";
 import breakpoints from "../../styles/breakpoints";
 
@@ -56,6 +57,10 @@ export const BoxSection = styled.div`
 export const Box = styled.div`
   text-align: center;
   margin: 0 10px;
+
+  h2 {
+    color: ${tertiaryColor};
+  }
 
   p {
     font-size: 1rem;

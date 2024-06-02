@@ -23,8 +23,8 @@ export const Nav = styled.nav`
   }
 
   img {
-    width: 20%;
-    height: 20%;
+    width: 15%;
+    height: 15%;
   }
 
   a {
@@ -58,15 +58,12 @@ export const Nav = styled.nav`
 
   @media (max-width: 500px) {
     img {
-      width: 25%;
-      height: 25%;
+      width: 18%;
+      height: 18%;
     }
-  }
 
-  @media (max-width: 450px) {
-    img {
-      width: 33%;
-      height: 33%;
+    a {
+      font-size: 0.9rem;
     }
   }
 

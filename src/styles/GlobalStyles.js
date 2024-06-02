@@ -10,6 +10,15 @@ export default createGlobalStyle`
   box-sizing: border-box;
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 body{
   font-family: "Segoe UI", sans-serif;
   background-color: ${colors.primaryColor};
@@ -24,6 +33,10 @@ html, body, #root{
 p{
   color: ${colors.fontColor};
 
+}
+
+img {
+  animation: fadeIn 1s ease-in-out;
 }
 
 h1 {

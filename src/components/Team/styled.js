@@ -35,7 +35,7 @@ export const Item = styled.div`
 
   img {
     width: 50%;
-    height: 510px;
+    height: 550px;
     object-fit: cover;
   }
 `;

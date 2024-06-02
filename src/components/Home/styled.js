@@ -3,6 +3,7 @@ import {
   primaryColor,
   primaryDarkColor,
   secondaryColor,
+  tertiaryColor,
 } from "../../config/colors";
 import breakpoints from "../../styles/breakpoints";
 
@@ -65,5 +66,9 @@ export const Title = styled.div`
   h1 {
     margin: 25px 0px;
     color: #fff;
+  }
+
+  span {
+    color: ${tertiaryColor};
   }
 `;

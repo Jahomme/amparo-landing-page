@@ -6,7 +6,9 @@ export default function Home() {
   return (
     <Container id="Home">
       <Title>
-        <h1>Terapia não precisa durar anos para mudar sua vida</h1>
+        <h1>
+          <span>Terapia</span> não precisa durar anos para mudar sua vida
+        </h1>
         <a>
           <button>Agendar Sessão</button>
         </a>
