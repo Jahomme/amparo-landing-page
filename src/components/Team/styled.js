@@ -26,16 +26,16 @@ export const Container = styled.div`
 
 export const Item = styled.div`
   display: flex;
-  margin: 0 5px 50px;
+  margin: 10px 5px 50px;
   width: 90%;
   padding: 5px;
-  border-radius: 5px;
-  border: solid 1px #7d7d7d;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
 
   img {
     width: 50%;
     height: 550px;
+    border-radius: 15px;
     object-fit: cover;
   }
 `;

@@ -29,10 +29,10 @@ export default function Login() {
             <h1>Criar Conta</h1>
             <SocialIcons>
               <a href="#" className="icon">
-                <FaGooglePlusG color="black" />
+                <FaGooglePlusG size={20} color="black" />
               </a>
               <a href="#" className="icon">
-                <FaFacebookF color="black" />
+                <FaFacebookF size={20} color="black" />
               </a>
             </SocialIcons>
             <span>ou use o seu email para cadastrar</span>
