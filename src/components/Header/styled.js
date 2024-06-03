@@ -22,6 +22,14 @@ export const Nav = styled.nav`
     background-color: transparent;
   }
 
+  .loginButton {
+    background-color: ${primaryDarkColor};
+  }
+
+  .loginButton span {
+    margin: 0 0 0 5px;
+  }
+
   img {
     width: 15%;
     height: 15%;
@@ -47,6 +55,7 @@ export const Nav = styled.nav`
       display: flex;
       flex-direction: column;
       width: 30%;
+      text-align: center;
     }
     .links-open a {
       color: #fff;
@@ -64,6 +73,10 @@ export const Nav = styled.nav`
 
     a {
       font-size: 0.9rem;
+    }
+
+    button {
+      font-size: 0.7rem;
     }
   }
 

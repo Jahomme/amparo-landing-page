@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { Box, FixedButton, Nav } from "./styled";
 import logo from "../../assets/logo.png";
-import { FaBars, FaTimes, FaWhatsapp } from "react-icons/fa";
+import { FaBars, FaTimes, FaWhatsapp, FaUser } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,6 +30,13 @@ export default function Header() {
           <a title="CONTATO" href="#Contact">
             CONTATO
           </a>
+          <Link to="/login">
+            <button className="loginButton">
+              {" "}
+              <FaUser />
+              <span>ACESSAR</span>
+            </button>
+          </Link>
         </div>
         <div className="button">
           <button onClick={toggleNavbar}>
@@ -50,6 +58,13 @@ export default function Header() {
             <a title="CONTATO" href="#Contact">
               CONTATO
             </a>
+            <Link to="/login">
+              <button className="loginButton">
+                {" "}
+                <FaUser />
+                <span>ACESSAR</span>
+              </button>
+            </Link>
           </div>
         )}
       </Nav>

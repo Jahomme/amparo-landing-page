@@ -65,12 +65,15 @@ h1 {
 button{
   cursor: pointer;
   background: ${colors.primaryDarkColor};
-  border: none;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
   color: #fff;
   padding: 10px 20px;
-  border-radius: 4px;
-  font-weight: 700;
   transition: all 300ms;
+  text-transform: uppercase;
+
 
   &:hover {
     filter: brightness(85%);

@@ -41,7 +41,7 @@ export const Section = styled.div`
   button {
     margin: 40px 0;
     padding: 20px 30px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     width: 40%;
   }
 

@@ -59,7 +59,7 @@ export const Title = styled.div`
     button {
       width: 90%;
       padding: 10px 20px;
-      font-size: 1.1rem;
+      font-size: 1rem;
     }
   }
 

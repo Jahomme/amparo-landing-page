@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Title } from "./styled";
 import homeImage from "../../assets/img1.jpeg";
 
-export default function Home() {
+export default function HomeContainer() {
   return (
     <Container id="Home">
       <Title>
