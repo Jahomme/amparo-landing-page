@@ -31,8 +31,8 @@ export const Nav = styled.nav`
   }
 
   img {
-    width: 15%;
-    height: 15%;
+    width: 12%;
+    height: 12%;
   }
 
   a {

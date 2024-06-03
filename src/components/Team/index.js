@@ -17,7 +17,7 @@ const workers = [
     crp: "00/000.000",
     description:
       "Meu nome é Alícia Azevedo, sou psicóloga formada na Universidade Potiguar (UNP) e sou Psicóloga Clínica, Psicoterapeuta Infanto-juvenil. Tenho como objetivo principal promover o desenvolvimento saudável dos meus pacientes, promovendo o autoconhecimento, a autoconfiança e o bem-estar. Como psicóloga, é fundamental reconhecer a importância da saúde mental infantojuvenil e o impacto que ela tem na vida das crianças e adolescentes. Para que assim tenham um desenvolvimento saudável.",
-    approach: "Psicanálise",
+    approach: "Terapia cognitivo-comportamental (TCC)",
   },
   {
     id: 1,
