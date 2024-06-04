@@ -214,4 +214,120 @@ export const content = [
       "Lembrando sempre que encontrar o equilíbrio certo entre estudo e lazer é essencial para o seu bem-estar geral e sucesso acadêmico. Priorize sua saúde mental e não se esqueça de reservar tempo para se divertir e relaxar! 🌟 #AdministraçãoDoTempo #EquilíbrioVidaEstudoLazer",
     ],
   },
+  {
+    id: 4,
+    title: "COMO CUIDAR DA SAÚDE MENTAL: UM GUIA INFORMATIVO",
+    text: [
+      "A saúde mental é tão importante quanto a saúde física. Aqui estão algumas dicas para ajudar a cuidar da sua saúde mental:",
+      <br key="4-1" />,
+      <br key="4-2" />,
+      <ol key="4-3">
+        <li key="4-3-1">
+          <b key="4-3-1-b">Conheça a si mesmo: </b>Reconheça seus sentimentos e
+          emoções. Tente entender o que está causando esses sentimentos e como
+          eles afetam você.
+        </li>
+        <li key="4-3-2">
+          <b key="4-3-2-b">Pratique o autocuidado: </b>Reserve um tempo para
+          relaxar e fazer coisas que você gosta. Isso pode incluir ler um livro,
+          ouvir música, meditar ou fazer uma caminhada.
+        </li>
+        <li key="4-3-3">
+          <b key="4-3-3-b">Mantenha uma rotina diária: </b>Ter uma rotina diária
+          pode ajudar a manter a estabilidade e a previsibilidade, o que pode
+          ser benéfico para a saúde mental.
+        </li>
+        <li key="4-3-4">
+          <b key="4-3-4-b">Mantenha uma alimentação saudável: </b>Uma dieta
+          equilibrada pode ter um impacto positivo na saúde mental. Tente
+          incluir muitas frutas, vegetais e grãos integrais em sua dieta.
+        </li>
+        <li key="4-3-5">
+          <b key="4-3-5-b">Faça exercícios regularmente: </b>O exercício físico
+          pode ajudar a reduzir os sintomas de ansiedade e depressão, além de
+          melhorar o humor.
+        </li>
+        <li key="4-3-6">
+          <b key="4-3-6-b">Durma bem: </b>O sono é essencial para a saúde
+          mental. Tente manter uma rotina de sono regular e garantir que você
+          esteja dormindo o suficiente.
+        </li>
+        <li key="4-3-7">
+          <b key="4-3-7-b">Peça ajuda quando necessário: </b>Se você está
+          lutando com sua saúde mental, não hesite em procurar ajuda. Isso pode
+          incluir falar com um amigo ou familiar de confiança, ou procurar a
+          ajuda de um profissional de saúde mental.
+        </li>
+      </ol>,
+      <br key="4-4" />,
+      "Lembre-se, cuidar da saúde mental é um processo contínuo e é importante ser gentil consigo mesmo durante esse processo. Você não está sozinho e há ajuda disponível para você.",
+    ],
+  },
+  {
+    id: 5,
+    title: "ENTENDENDO A DEPRESSÃO: UM GUIA INFORMATIVO",
+    text: [
+      "A depressão é uma condição de saúde mental comum, mas séria, que afeta milhões de pessoas em todo o mundo. Aqui está um guia informativo para ajudar a entender melhor a depressão.",
+      <br key="5-1" />,
+      <br key="5-2" />,
+      <b key="5-3">O que é Depressão?</b>,
+      <br key="5-4" />,
+      <br key="5-5" />,
+      "A depressão é um transtorno de humor que causa sentimentos persistentes de tristeza e perda de interesse. É mais do que apenas tristeza temporária ou desânimo. Pode afetar a maneira como você pensa, sente e lida com atividades diárias.",
+      <br key="5-6" />,
+      <br key="5-7" />,
+      <b key="5-8">Sintomas da Depressão</b>,
+      <br key="5-9" />,
+      <br key="5-10" />,
+      "Os sintomas da depressão podem variar de leves a graves e podem incluir:",
+      <br key="5-11" />,
+      <br key="5-12" />,
+      <ul key="5-13">
+        <li key="5-13-1">Sentimentos de tristeza, vazio ou desespero</li>
+        <li key="5-13-2">
+          Perda de interesse ou prazer em atividades que você costumava gostar
+        </li>
+        <li key="5-13-3">Dificuldade em dormir ou dormir demais</li>
+        <li key="5-13-4">Fadiga ou falta de energia</li>
+        <li key="5-13-5">Sentimentos de inutilidade ou culpa</li>
+        <li key="5-13-6">
+          Dificuldade em pensar, concentrar-se ou tomar decisões
+        </li>
+        <li key="5-13-7">Pensamentos de morte ou suicídio</li>
+      </ul>,
+      <br key="5-14" />,
+      <b key="5-15">Tratamento da Depressão</b>,
+      <br key="5-16" />,
+      <br key="5-17" />,
+      "A depressão é tratável e muitas pessoas experimentam alívio dos sintomas com o tratamento adequado, que pode incluir:",
+      <br key="5-18" />,
+      <br key="5-19" />,
+      <ul key="5-20">
+        <li key="5-20-1">
+          <b key="5-20-1-b">Terapia: </b>A psicoterapia, ou "terapia da fala",
+          pode ajudar as pessoas a entender e gerenciar seus sintomas de
+          depressão.
+        </li>
+        <li key="5-20-2">
+          <b key="5-20-2-b">Medicação: </b>Antidepressivos podem ser usados para
+          tratar a depressão. Eles podem ajudar a melhorar a maneira como o
+          cérebro usa certas substâncias químicas que controlam o humor ou o
+          estresse.
+        </li>
+        <li key="5-20-3">
+          <b key="5-20-3-b">Estilo de vida saudável: </b>Exercício regular, uma
+          dieta saudável, sono adequado e evitar o álcool e a cafeína podem
+          ajudar a gerenciar os sintomas da depressão.
+        </li>
+      </ul>,
+      <br key="5-21" />,
+      <b key="5-22">Buscando Ajuda</b>,
+      <br key="5-23" />,
+      <br key="5-24" />,
+      "Se você ou alguém que você conhece está lutando com sintomas de depressão, é importante procurar ajuda de um profissional de saúde mental. Lembre-se, não há vergonha em buscar ajuda e você não está sozinho.",
+      <br key="5-25" />,
+      <br key="5-26" />,
+      "Este é apenas um guia geral e não substitui o conselho médico profissional. Se você acha que pode estar sofrendo de depressão, entre em contato com um profissional de saúde mental.",
+    ],
+  },
 ];

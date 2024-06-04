@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import {
+  fontColor,
   primaryColor,
   primaryDarkColor,
   secondaryColor,
@@ -13,12 +14,22 @@ export const MainContainer = styled.div`
   justify-content: center;
   flex-direction: column;
   height: 100vh;
+  animation: fadeIn 500ms ease-in-out;
 
   .return {
     position: fixed;
     top: 0;
     left: 0;
     padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .return h2 {
+    font-weight: 300;
+    color: ${fontColor};
+    opacity: 0.5;
+    margin: 0 5px 5px;
   }
 
   .container {

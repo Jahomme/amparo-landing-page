@@ -22,6 +22,9 @@ export default function Login() {
         <Link to="/">
           <GoArrowLeft size={45} color={secondaryColor} />
         </Link>
+        <Link to="/">
+          <h2>VOLTAR</h2>
+        </Link>
       </div>
       <div className={containerClassName}>
         <div className="form-container sign-up">

@@ -91,13 +91,13 @@ export const Box = styled.div`
 
   @media (max-width: 480px) {
     h2 {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
     }
   }
 
   @media (max-width: 400px) {
     h2 {
-      font-size: 1.1rem;
+      font-size: 1rem;
     }
   }
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Section } from "./styled";
-import { FaArrowDown } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export default function Contact() {
   return (
@@ -12,9 +12,9 @@ export default function Contact() {
           Entre em contato conosco e em instantes nossa equipe irá lhe atender
           para marcar a sua sessão.
         </h2>
-        <a>
+        <Link to="/login">
           <button>Marcar minha sessão</button>
-        </a>
+        </Link>
       </Section>
     </Container>
   );

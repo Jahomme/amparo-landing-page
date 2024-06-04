@@ -22,7 +22,7 @@ export const Container = styled.div`
   img {
     width: 40%;
     height: 40%;
-    margin: 100px 30px 10px;
+    margin: 75px 30px 10px;
 
     @media ${breakpoints.size2} {
       width: 70%;

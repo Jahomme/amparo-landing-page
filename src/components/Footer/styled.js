@@ -54,6 +54,7 @@ export const Section = styled.div`
     margin: 10px 0;
   }
 
+
   @media (max-width: 1050px) {
     display: block;
 

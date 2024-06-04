@@ -70,7 +70,7 @@ export default function Header() {
       </Nav>
       <a>
         <FixedButton>
-          <a href="https://www.google.com.br/?hl=pt-BR">
+          <a href="https://wa.me/message/GLX5E6IA7AAYB1">
             {" "}
             <FaWhatsapp size={50} />
           </a>
