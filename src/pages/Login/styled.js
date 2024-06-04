@@ -23,6 +23,9 @@ export const MainContainer = styled.div`
     padding: 10px;
     display: flex;
     align-items: center;
+    &:hover {
+      filter: brightness(10%);
+    }
   }
 
   .return h2 {
