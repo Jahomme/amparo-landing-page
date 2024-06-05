@@ -5,7 +5,7 @@ import breakpoints from "../../styles/breakpoints";
 export const Container = styled.div`
   background: ${primaryColor};
   width: 100%;
-  height: 40%;
+  height: auto;
   margin: 25px 0 30px;
   display: flex;
   align-items: center;

@@ -8,7 +8,7 @@ import {
 
 export const MainContainer = styled.div`
   background-color: #c9d6ff;
-  background: linear-gradient(to right, #fff0ea, #ffd1c1);
+  background: linear-gradient(to right, #f5f0f6, #d9c3db);
   display: flex;
   align-items: center;
   justify-content: center;
