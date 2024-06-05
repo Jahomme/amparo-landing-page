@@ -9,8 +9,8 @@ export default function Contact() {
         {" "}
         <h1>Agende sua consulta</h1>
         <h2>
-          Entre em contato conosco e em instantes nossa equipe irá lhe atender
-          para marcar a sua sessão.
+          Cadastre-se ou entre em contato conosco via Whatsapp e em instantes
+          nossa equipe irá lhe atender para marcar a sua sessão.
         </h2>
         <Link to="/login">
           <button>Marcar minha sessão</button>
