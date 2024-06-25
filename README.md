@@ -23,4 +23,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Este projeto consiste em uma landing page focada na atração de clientes que se interessam por realizar terapia com psicólogo de maneira fácil e desburocratizada.
 
-- [Visite o projeto online](https://blog-next-2ppi.vercel.app/)
+- [Visite o projeto online](https://ampara-apoio-psicologico.vercel.app)
